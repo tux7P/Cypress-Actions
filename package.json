@@ -2,5 +2,13 @@
   "dependencies": {
     "-": "^0.0.1",
     "y": "^0.3.2"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:sanity": "cypress run --spec **/sanity.js"
+  },
+  "devDependencies": {
+    "cypress": "^9.6.0"
   }
 }
