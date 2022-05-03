@@ -1,6 +1,6 @@
 # Cypress-Actions
 
-This repository focuses on running cypress tests in github actions. Where running multiple tests periodically using GitHub Action & Cron job.
+This repository focuses on running cypress tests in github actions. Where tests are run periodically using GitHub Action & Cron job.
 
 # 🧠 Learnings
 
