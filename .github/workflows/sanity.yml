@@ -17,3 +17,10 @@ jobs:
           start: npm run cypress:sanity
           wait-on: "https://www.tango.us"
           config: "baseUrl=https://www.tango.us"
+      
+      - name: Upload videos
+        - uses: actions/upload-artifact@v1
+        if: always()
+        with:
+        name: cypress-videos
+        path: cypress/videos
