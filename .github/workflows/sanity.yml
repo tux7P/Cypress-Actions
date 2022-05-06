@@ -2,7 +2,7 @@ name: sanity
 on: [push, pull_request]
 
 jobs:
-  sanity-tests:
+  install:
     runs-on: ubuntu-20.04
     needs: install
     steps:
