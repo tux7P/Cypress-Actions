@@ -13,6 +13,16 @@ jobs:
       - name: Cypress tests 🧪
         uses: cypress-io/github-action@v2
         with:
-          build: npm run build
           # load the url
           start: npm run cypress:sanity
+        uses: actions/upload-artifact@v1
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots
+      # Test run video was always captured, so this action uses "always()" condition
+        uses: actions/upload-artifact@v1
+        if: always()
+        with:
+          name: cypress-videos
+          path: cypress/videos
