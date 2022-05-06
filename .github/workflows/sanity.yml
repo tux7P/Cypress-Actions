@@ -23,7 +23,6 @@ jobs:
           group: Recording example
           tag: action
         with:
+          build: npm run build
           # load the url
           start: npm run cypress:sanity
-          wait-on: "https://www.tango.us"
-          config: "baseUrl=https://www.tango.us"
