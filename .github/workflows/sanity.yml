@@ -1,0 +1,19 @@
+name: Run Sanity Tests 
+on: [push, pull_request]
+
+jobs: ui-tests:
+    runs-on: ubuntu-20.04
+    needs: install
+    steps:
+      # https://github.com/actions/checkout
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+        
+      # reinstall dependencies and run Cypress tests
+      - name: Cypress tests 🧪
+        uses: cypress-io/github-action@v2
+        with:
+          # load the url
+          start: npm run serve
+          wait-on: "https://www.tango.us"
+          config: "baseUrl=https://www.tango.us"

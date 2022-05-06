@@ -15,3 +15,4 @@ This repository focuses on running cypress tests in github actions. Where tests 
 ⌛ CICD with Github Actions
 
 ⌛ Running nightly builds using Cron job
+
