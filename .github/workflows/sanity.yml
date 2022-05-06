@@ -15,14 +15,14 @@ jobs:
         id: cypress
         # Continue the build in case of an error, as we need to set the
         # commit status in the next step, both in case of success and failure
-        continue-on-error: true
+       - uses: actions/upload-artifact@v1
+        if: failure()
         with:
-          working-directory: examples/recording
-          record: true
-          parallel: true
-          group: Recording example
-          tag: action
+          name: cypress-screenshots
+          path: cypress/screenshots
+      # Test run video was always captured, so this action uses "always()" condition
+      - uses: actions/upload-artifact@v1
+        if: always()
         with:
-          build: npm run build
-          # load the url
-          start: npm run cypress:sanity
+          name: cypress-videos
+          path: cypress/videos
