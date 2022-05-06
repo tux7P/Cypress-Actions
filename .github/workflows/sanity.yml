@@ -12,15 +12,18 @@ jobs:
       # reinstall dependencies and run Cypress tests
       - name: Cypress tests 🧪
         uses: cypress-io/github-action@v2
+        id: cypress
+        # Continue the build in case of an error, as we need to set the
+        # commit status in the next step, both in case of success and failure
+        continue-on-error: true
+        with:
+          working-directory: examples/recording
+          record: true
+          parallel: true
+          group: Recording example
+          tag: action
         with:
           # load the url
           start: npm run cypress:sanity
           wait-on: "https://www.tango.us"
           config: "baseUrl=https://www.tango.us"
-      
-      - name: Upload videos
-        uses: actions/upload-artifact@v1
-        if: always()
-        with:
-        name: cypress-videos
-        path: cypress/videos
