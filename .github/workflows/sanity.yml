@@ -1,10 +1,9 @@
-name: sanity
-on: [push, pull_request]
+name: Sanity Tests
+on: [push]
 
 jobs:
-  install:
-    runs-on: ubuntu-20.04
-    needs: install
+  cypress-run::
+    runs-on: ubuntu-latest
     steps:
       # https://github.com/actions/checkout
       - name: Checkout 🛎️
@@ -15,6 +14,6 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           # load the url
-          start: npm run serve
+          start: npm run cypress:sanity
           wait-on: "https://www.tango.us"
           config: "baseUrl=https://www.tango.us"
