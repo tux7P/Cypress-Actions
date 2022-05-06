@@ -1,8 +1,8 @@
-name: Run Sanity Tests
+name: sanity
 on: [push, pull_request]
 
 jobs:
-  ui-tests:
+  sanity-tests:
     runs-on: ubuntu-20.04
     needs: install
     steps:
