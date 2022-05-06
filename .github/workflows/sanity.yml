@@ -1,29 +1,27 @@
 name: Sanity Tests
-on: [push]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-  cypress-run:
+  build:
     runs-on: ubuntu-latest
-    steps:
-      # https://github.com/actions/checkout
-      - name: Checkout 🛎️
-        uses: actions/checkout@v3
 
-      # reinstall dependencies and run Cypress tests
-      - name: Cypress tests 🧪
-        uses: cypress-io/github-action@v2
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
         with:
-          # load the url
-          start: npm run cypress:sanity
-      
-      - name: Upload artifacts  
-        uses: actions/upload-artifact@v1
-        with:
-          name: cypress-screenshots
-          path: cypress/screenshots
-      # Test run video was always captured, so this action uses "always()" condition
-        uses: actions/upload-artifact@v1
-        if: always()
-        with:
-          name: cypress-videos
-          path: cypress/videos
+          node-version: ${{ matrix.node-version }}
+      - name: Install dependencies 📦
+        #Using npm ci is generally faster than running npm install
+        run: |
+          npm ci
+      - name: Run sanity tests 🖥
+        run: |
+          npm run cypress:sanity
