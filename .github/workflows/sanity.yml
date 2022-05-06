@@ -7,21 +7,23 @@ jobs:
     steps:
       # https://github.com/actions/checkout
       - name: Checkout 🛎️
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       # reinstall dependencies and run Cypress tests
       - name: Cypress tests 🧪
-      - uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v2
         with:
           # load the url
           start: npm run cypress:sanity
-      - uses: actions/upload-artifact@v1
+      
+      - name: Upload artifacts  
+        uses: actions/upload-artifact@v1
         if: failure()
         with:
           name: cypress-screenshots
           path: cypress/screenshots
       # Test run video was always captured, so this action uses "always()" condition
-      - uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v1
         if: always()
         with:
           name: cypress-videos
