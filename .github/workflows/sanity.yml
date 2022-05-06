@@ -2,7 +2,7 @@ name: Sanity Tests
 on: [push]
 
 jobs:
-  cypress-run::
+  cypress-run:
     runs-on: ubuntu-latest
     steps:
       # https://github.com/actions/checkout
