@@ -1,5 +1,6 @@
 # Cypress-Actions
 ![Tests Passing](https://github.com/tux7P/Cypress-Actions/actions/workflows/sanity.yml/badge.svg)
+
 This repository focuses on running cypress tests in github actions. Where tests are run periodically using GitHub Action & Cron job.
 
 # Prerequisite
