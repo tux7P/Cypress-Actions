@@ -12,7 +12,7 @@ This repository focuses on running cypress tests in github actions. Where tests 
 
 ✅ Sanity tests with Cypress
 
-⌛ API tests with Cypress
+✅ API tests with Cypress
 
 ⌛ Performance tests with Cypress
 
