@@ -37,3 +37,9 @@ This repository focuses on running cypress tests in github actions. Where tests 
 4. E2E UI testing with Cypress
 5. Performance tests using Artillery
 6. CICD using Github Actions
+7. Generate report
+
+💡 Features
+* Test pipeline via Github Actions
+
+🧪 Testing
