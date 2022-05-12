@@ -1,27 +1,16 @@
 name: Sanity Tests
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+on: [push]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-
-    steps:
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Install dependencies 📦
-        #Using npm ci is generally faster than running npm install
-        run: |
-          npm install
-      - name: Run sanity tests 🖥
-        run: |
-          npm run cypress:sanity
+  cypress-run:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+        # Install NPM dependencies, cache them correctly
+        # and run all Cypress tests
+        - name: Cypress run
+          uses: cypress-io/github-action@v2
+          with:
+            build: npm run build
+            start:    npm run cypress:sanity
