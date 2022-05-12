@@ -9,6 +9,7 @@
     "cypress:sanity": "cypress run --spec **/sanity.js"
   },
   "devDependencies": {
-    "cypress": "^9.6.0"
+    "cypress": "^9.6.0",
+    "markdown-notes-tree": "^1.12.0"
   }
 }
