@@ -6,7 +6,8 @@
   "scripts": {
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "cypress:sanity": "cypress run --spec **/sanity.js"
+    "cypress:sanity": "cypress run --spec **/sanity.js",
+    "cypress:api": "cypress run --spec **/api.js"
   },
   "devDependencies": {
     "cypress": "^9.6.0",
