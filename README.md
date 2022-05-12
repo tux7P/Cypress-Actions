@@ -18,7 +18,7 @@ This repository focuses on running cypress tests in github actions. Where tests 
 
 ⌛ E2E UI tests with Cypress
 
-⌛ CICD with Github Actions
+✅ CICD with Github Actions
 
 ⌛ Running nightly builds using Cron job
 
