@@ -1,6 +1,5 @@
 describe('Verify Nav Menu', function() {
     it('Verify Nav', function() {
-     
         cy.visit("/")
         cy.contains('Use Cases').click()
         cy.location('pathname').should('eq', '/use-cases')
@@ -13,9 +12,5 @@ describe('Verify Nav Menu', function() {
         cy.contains('About Us').click()
         cy.location('pathname').should('eq', '/about-us')
         cy.go('back')
-    })
-    
-    it('', function() {
-     
-    }) 
+    });
 })
