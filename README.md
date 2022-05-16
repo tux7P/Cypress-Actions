@@ -19,6 +19,8 @@ This repository focuses on running cypress tests in github actions. Where tests 
 
 ⌛ E2E UI tests with Cypress
 
+⌛ Generate test report
+
 ✅ CICD with Github Actions
 
 ⌛ Running nightly builds using Cron job
@@ -40,7 +42,17 @@ This repository focuses on running cypress tests in github actions. Where tests 
 6. CICD using Github Actions
 7. Generate report
 
-💡 Features
+# 📚 Folder structure
+
+These folders hold end-to-end tests and supporting files for the Cypress Test Runner.
+
+* fixtures holds optional JSON data for mocking, read more
+* integration holds the actual test files, read more
+* plugins allow you to customize how tests are loaded, read more
+* support file runs before all tests and is a great place to write or load additional custom commands, read more
+
+
+# 💡 Features
 * Test pipeline via Github Actions
 
-🧪 Testing
+# 🧪 Testing
