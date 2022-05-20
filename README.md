@@ -9,7 +9,7 @@ This repository focuses on running cypress tests in github actions. Where tests 
 * Chrome Browser
 * Code Editor
 
-# 🧠 Learnings
+# 🎓 Learnings
 
 ✅ Sanity tests with Cypress
 
@@ -60,10 +60,10 @@ These folders hold end-to-end tests and supporting files for the Cypress Test Ru
 └── package.json
 
 ```
-* fixtures holds optional JSON data for mocking, read more
-* integration holds the actual test files, read more
-* plugins allow you to customize how tests are loaded, read more
-* support file runs before all tests and is a great place to write or load additional custom commands, read more
+* **`fixtures`**: Holds optional JSON data for mocking
+* **`integration`**: Holds the actual test files
+* **`plugins`**: Allow you to customize how tests are loaded
+* **`support`**: File runs before all tests and is a great place to write or load additional custom commands
 
 
 # 💡 Features
