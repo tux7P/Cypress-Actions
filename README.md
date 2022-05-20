@@ -45,7 +45,21 @@ This repository focuses on running cypress tests in github actions. Where tests 
 # 📚 Folder structure
 
 These folders hold end-to-end tests and supporting files for the Cypress Test Runner.
+```
+.
+├── README.md
+├── cypress
+│   └── integration
+│       ├── api
+│       │   └── api.js
+│       ├── e2e
+│       │   └── home_spec.js
+│       └── sanity.js
+├── cypress.json
+├── package-lock.json
+└── package.json
 
+```
 * fixtures holds optional JSON data for mocking, read more
 * integration holds the actual test files, read more
 * plugins allow you to customize how tests are loaded, read more
