@@ -65,8 +65,27 @@ These folders hold end-to-end tests and supporting files for the Cypress Test Ru
 * **`plugins`**: Allow you to customize how tests are loaded
 * **`support`**: File runs before all tests and is a great place to write or load additional custom commands
 
-
 # 💡 Features
+
 * Test pipeline via Github Actions
 
+# 🛠 Installation & Set Up
+ 
+1. Install dependencies
+
+   ```sh
+   yarn
+   ```
+
 # 🧪 Testing
+
+* To run Sanity tests
+
+   ```sh
+   npm run cypress:sanity
+   ```
+* To run API tests
+
+   ```sh
+   npm run cypress:api
+   ```
