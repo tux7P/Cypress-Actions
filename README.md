@@ -32,7 +32,7 @@ This repository focuses on running cypress tests in github actions. Where tests 
 3. Artillery 
 4. Github Actions
 
-# 🕮 Table Of Contents
+# 💼 Table Of Contents
 
 1. Setup
 2. Usage
