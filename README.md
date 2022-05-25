@@ -4,10 +4,14 @@
 This repository focuses on running cypress tests in github actions. Where tests are run periodically using GitHub Action & Cron job.
 
 # Prerequisite
-* npm
+* Node.js
+    * This project was created with v16.13.1
 * Git
-* Chrome Browser
-* Code Editor
+* A JavaScript IDE like Visual Studio Code
+* Up-to-date versions of the following browsers:
+    * Google Chrome
+    * Mozilla Firefox
+    * Microsoft Edge
 
 # 🎓 Learnings
 
