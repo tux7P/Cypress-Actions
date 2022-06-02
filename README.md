@@ -25,6 +25,7 @@ This repository focuses on running cypress tests in github actions. Where tests 
 
 ⌛ Running nightly builds using Cron job
 
+
 # 🦾 Technologies Used
 
 1. Cypress
