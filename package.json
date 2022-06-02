@@ -7,10 +7,12 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "cypress:sanity": "cypress run --spec **/sanity.js",
-    "cypress:api": "cypress run --spec **/api.js"
+    "cypress:api": "cypress run --spec **/api.js",
+    "cypress:performance": "cypress run --spec **/performance.js"
   },
   "devDependencies": {
-    "cypress": "^9.6.0",
+    "@cypress-audit/lighthouse": "^1.3.0",
+    "cypress": "^9.7.0",
     "markdown-notes-tree": "^1.12.0"
   }
 }

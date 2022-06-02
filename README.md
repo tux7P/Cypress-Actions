@@ -4,12 +4,16 @@
 This repository focuses on running cypress tests in github actions. Where tests are run periodically using GitHub Action & Cron job.
 
 # Prerequisite
-* npm
+* Node.js
+    * This project was created with v16.13.1
 * Git
-* Chrome Browser
-* Code Editor
+* A JavaScript IDE like Visual Studio Code
+* Up-to-date versions of the following browsers:
+    * Google Chrome
+    * Mozilla Firefox
+    * Microsoft Edge
 
-# 🧠 Learnings
+# 🎓 Learnings
 
 ✅ Sanity tests with Cypress
 
@@ -33,7 +37,7 @@ This repository focuses on running cypress tests in github actions. Where tests 
 3. Artillery 
 4. Github Actions
 
-# 🕮 Table Of Contents
+# 💼 Table Of Contents
 
 1. Setup
 2. Usage
@@ -46,14 +50,47 @@ This repository focuses on running cypress tests in github actions. Where tests 
 # 📚 Folder structure
 
 These folders hold end-to-end tests and supporting files for the Cypress Test Runner.
+```
+.
+├── README.md
+├── cypress
+│   └── integration
+│       ├── api
+│       │   └── api.js
+│       ├── e2e
+│       │   └── home_spec.js
+│       └── sanity.js
+├── cypress.json
+├── package-lock.json
+└── package.json
 
-* fixtures holds optional JSON data for mocking, read more
-* integration holds the actual test files, read more
-* plugins allow you to customize how tests are loaded, read more
-* support file runs before all tests and is a great place to write or load additional custom commands, read more
-
+```
+* **`fixtures`**: Holds optional JSON data for mocking
+* **`integration`**: Holds the actual test files
+* **`plugins`**: Allow you to customize how tests are loaded
+* **`support`**: File runs before all tests and is a great place to write or load additional custom commands
 
 # 💡 Features
+
 * Test pipeline via Github Actions
 
+# 🛠 Installation & Set Up
+ 
+1. Install dependencies
+
+   ```sh
+   yarn
+   ```
+
 # 🧪 Testing
+
+* To run Sanity tests
+
+   ```sh
+   npm run cypress:sanity
+   ```
+* To run API tests
+
+   ```sh
+   npm run cypress:api
+   ```
