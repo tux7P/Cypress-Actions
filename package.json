@@ -6,9 +6,9 @@
   "scripts": {
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "cypress:sanity": "cypress run --spec **/sanity.js",
-    "cypress:api": "cypress run --spec **/api.js",
-    "cypress:performance": "cypress run --spec **/performance.js"
+    "cypress:sanity": "cypress run --spec **/sanity.cy.js",
+    "cypress:api": "cypress run --spec **/api.cy.js",
+    "cypress:performance": "cypress run --spec **/performance.cy.js"
   },
   "devDependencies": {
     "@cypress-audit/lighthouse": "^1.3.0",
