@@ -9,7 +9,7 @@ Environment: 🌍
 Learnings: 🎓 
 Checklist: ✅ ⌛ 
 Technologies Used: 🦾
-Table Of Contents: 💼 
-Folder structure: 📚 
-Features: 💡 
+Table Of Contents: 💼 | 📚
+Folder structure: 📁 
+Features: 💡 | 📌  
 Build: 🏗️ 
