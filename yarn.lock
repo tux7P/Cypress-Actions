@@ -497,10 +497,10 @@
   dependencies:
     "cssom" "0.3.x"
 
-"cypress@^9.7.0":
-  "integrity" "sha512-+1EE1nuuuwIt/N1KXRR2iWHU+OiIt7H28jJDyyI4tiUftId/DrXYEwoDa5+kH2pki1zxnA0r6HrUGHV5eLbF5Q=="
-  "resolved" "https://registry.npmjs.org/cypress/-/cypress-9.7.0.tgz"
-  "version" "9.7.0"
+"cypress@^10.0.2":
+  "integrity" "sha512-7+C4KHYBcfZrawss+Gt5PlS35rfc6ySc59JcHDVsIMm1E/J35dqE41UEXpdtwIq3549umCerNWnFADzqib4kcA=="
+  "resolved" "https://registry.npmjs.org/cypress/-/cypress-10.0.2.tgz"
+  "version" "10.0.2"
   dependencies:
     "@cypress/request" "^2.88.10"
     "@cypress/xvfb" "^1.2.4"
