@@ -12,4 +12,4 @@ Technologies Used: 🦾
 Table Of Contents: 💼 
 Folder structure: 📚 
 Features: 💡 
-Setup:⚙️
+Build: 🏗️ 
