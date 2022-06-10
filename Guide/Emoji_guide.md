@@ -2,8 +2,14 @@ Introduction: 🌟
 Prerequisite: 📝 | 💻
 Testing: 🧪
 Deploy: 🚀
-Setup: 🔧
+Setup: 🔧 | 🛠 | ⚙️
+Installation: 🔧 | 🛠 | ⚙️
 Retest: 🔁
 Environment: 🌍
-
- 
+Learnings: 🎓 
+Checklist: ✅ ⌛ 
+Technologies Used: 🦾
+Table Of Contents: 💼 
+Folder structure: 📚 
+Features: 💡 
+Setup:⚙️
