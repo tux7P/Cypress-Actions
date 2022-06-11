@@ -19,7 +19,7 @@ This repository focuses on running cypress tests in github actions. Where tests 
 
 ✅ API tests with Cypress
 
-⌛ Performance tests with Cypress
+✅ Performance tests with Cypress
 
 ✅ E2E UI tests with Cypress
 
