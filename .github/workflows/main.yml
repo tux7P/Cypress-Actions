@@ -7,7 +7,7 @@ jobs:
     container: cypress/browsers:latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
       - name: Run Cypress tests
         uses: cypress-io/github-action@v2
         with:
