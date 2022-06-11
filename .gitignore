@@ -104,4 +104,7 @@ dist
 .tern-port
 
 # Cypress videos
-cypress/videos
+cypress/e2e/videos
+
+# Cypress screenshots
+cypress/e2e/screenshots
