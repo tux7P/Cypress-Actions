@@ -23,7 +23,7 @@ This repository focuses on running cypress tests in github actions. Where tests 
 
 ✅ E2E UI tests with Cypress
 
-✅ Generate test report with Allure
+✅ Generate test report with Allure & Github pages
 
 ✅ CICD with Github Actions
 
