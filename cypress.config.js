@@ -14,8 +14,8 @@ module.exports = defineConfig({
       });
       return null
     },
-  //  supportFile: false,
-  //  baseUrl: 'https://www.tango.us',
+    supportFile: false,
+    baseUrl: 'https://www.tango.us',
     
   },
 })
