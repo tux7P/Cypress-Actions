@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 10 22:03:41 ADT 2022","Fri Jun 10 22:03:42 ADT 2022","193","","API Tests","","","","Verify new posts can be created",""
+"passed","Fri Jun 10 22:02:53 ADT 2022","Fri Jun 10 22:03:15 ADT 2022","22116","","Verify Nav Menu","","","","Verify Nav",""
+"passed","Fri Jun 10 22:03:33 ADT 2022","Fri Jun 10 22:03:36 ADT 2022","3562","","Sanity tests","","","","Visits Tango website",""
+"passed","Fri Jun 10 22:03:42 ADT 2022","Fri Jun 10 22:03:42 ADT 2022","189","","API Tests","","","","Verify posts can be updated",""
+"passed","Fri Jun 10 22:03:40 ADT 2022","Fri Jun 10 22:03:41 ADT 2022","1018","","API Tests","","","","Verify comments endpoint returns 200 response and 500 body length",""
+"passed","Fri Jun 10 22:03:25 ADT 2022","Fri Jun 10 22:03:28 ADT 2022","3202","","empty spec","","","","Audits Home Page",""

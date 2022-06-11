@@ -8,10 +8,17 @@
     "cypress:run": "cypress run",
     "cypress:sanity": "cypress run --spec **/sanity.cy.js",
     "cypress:api": "cypress run --spec **/api.cy.js",
-    "cypress:performance": "cypress run --spec **/performance.cy.js"
+    "cypress:performance": "cypress run --spec **/performance.cy.js",
+    "cy:run": "cypress run --env allure=true",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
+    "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"
   },
   "devDependencies": {
     "@cypress-audit/lighthouse": "^1.3.0",
+    "@shelex/cypress-allure-plugin": "shelex/cypress-allure-plugin",
+    "allure-commandline": "^2.17.2",
     "cypress": "10.1.0",
     "markdown-notes-tree": "^1.12.0"
   }

@@ -25,3 +25,4 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 import "@cypress-audit/lighthouse/commands";
+import "@shelex/cypress-allure-plugin";

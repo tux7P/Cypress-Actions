@@ -1,0 +1,123 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Verify Nav Menu",
+    "children" : [ {
+      "name" : "Verify Nav",
+      "uid" : "fbbecd4b8e67f7c4",
+      "parentUid" : "666b86f805aa6b252bbeb61d83bf122f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654909373323,
+        "stop" : 1654909395439,
+        "duration" : 22116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "666b86f805aa6b252bbeb61d83bf122f"
+  }, {
+    "name" : "empty spec",
+    "children" : [ {
+      "name" : "Audits Home Page",
+      "uid" : "b702097aa77c8963",
+      "parentUid" : "3c544d86eb083cdf0508c26f6743e419",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654909405674,
+        "stop" : 1654909408876,
+        "duration" : 3202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3c544d86eb083cdf0508c26f6743e419"
+  }, {
+    "name" : "Sanity tests",
+    "children" : [ {
+      "name" : "Visits Tango website",
+      "uid" : "d8a86b013eb9b72e",
+      "parentUid" : "20ff8f22d338935c609d69ce373b6b19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654909413062,
+        "stop" : 1654909416624,
+        "duration" : 3562
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "20ff8f22d338935c609d69ce373b6b19"
+  }, {
+    "name" : "API Tests",
+    "children" : [ {
+      "name" : "Verify comments endpoint returns 200 response and 500 body length",
+      "uid" : "2d80a9933d38b75d",
+      "parentUid" : "faa16f93fe4deb7d0d82100941f2eb29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654909420831,
+        "stop" : 1654909421849,
+        "duration" : 1018
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify new posts can be created",
+      "uid" : "252bd63669b6a665",
+      "parentUid" : "faa16f93fe4deb7d0d82100941f2eb29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654909421863,
+        "stop" : 1654909422056,
+        "duration" : 193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify posts can be updated",
+      "uid" : "819fda07f99e46a3",
+      "parentUid" : "faa16f93fe4deb7d0d82100941f2eb29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654909422059,
+        "stop" : 1654909422248,
+        "duration" : 189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "faa16f93fe4deb7d0d82100941f2eb29"
+  } ]
+}

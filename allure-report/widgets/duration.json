@@ -1,0 +1,61 @@
+[ {
+  "uid" : "252bd63669b6a665",
+  "name" : "Verify new posts can be created",
+  "time" : {
+    "start" : 1654909421863,
+    "stop" : 1654909422056,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbbecd4b8e67f7c4",
+  "name" : "Verify Nav",
+  "time" : {
+    "start" : 1654909373323,
+    "stop" : 1654909395439,
+    "duration" : 22116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8a86b013eb9b72e",
+  "name" : "Visits Tango website",
+  "time" : {
+    "start" : 1654909413062,
+    "stop" : 1654909416624,
+    "duration" : 3562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "819fda07f99e46a3",
+  "name" : "Verify posts can be updated",
+  "time" : {
+    "start" : 1654909422059,
+    "stop" : 1654909422248,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d80a9933d38b75d",
+  "name" : "Verify comments endpoint returns 200 response and 500 body length",
+  "time" : {
+    "start" : 1654909420831,
+    "stop" : 1654909421849,
+    "duration" : 1018
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b702097aa77c8963",
+  "name" : "Audits Home Page",
+  "time" : {
+    "start" : 1654909405674,
+    "stop" : 1654909408876,
+    "duration" : 3202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
