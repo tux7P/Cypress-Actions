@@ -94,3 +94,6 @@ These folders hold end-to-end tests and supporting files for the Cypress Test Ru
    ```sh
    npm run cypress:api
    ```
+   
+* 📝 Reports:
+Link: https://tux7p.github.io/Cypress-Actions/
